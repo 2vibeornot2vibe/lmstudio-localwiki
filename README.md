@@ -37,9 +37,7 @@ Once Kiwix is installed, navigate to "Online Files" to download your desired wik
 *   **Linux**: Install `kiwix-tools` via your package manager.
 
 **Setup:**
-<img width="876" height="149" alt="5" src="https://github.com/user-attachments/assets/3f2e226e-8a82-430d-b0b4-4d71bb39b861" />
-
-1. Download your desired wiki dumps in the openZIM (`.zim`) format. For example, Wikipedia's openZIM dumps can be found [here](https://dumps.wikimedia.org/other/kiwix/zim/wikipedia). Alternatively, you may download them via **Kiwix Desktop** (remember to configure the download directory in settings beforehand).
+1. Download your desired wiki dumps [here](https://library.kiwix.org).
 2. Navigate to the directory containing your openZIM files and run:
 ```bash
 kiwix-serve -i 127.0.0.1 -p 8080 *.zim
