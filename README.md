@@ -8,7 +8,7 @@ This is the GitHub repository of the [localwiki tool](https://lmstudio.ai/2vibeo
 
 *   **Expandable & Upgradable**: Expanding and updating your Kiwix library is made trivial with openZIM files.
 *   **Fast**: For casual inquiries, this tool defaults to `intro` mode when fetching an article, which allows you LLM to provide quick yet factual responses. If the LLM needs more context, it will call the tool in either `full` or `refs` mode to get the full article or the references section. Additionally, this tool uses `cheerio` to strip away unnecessary HTML elements, significantly reducing prompt processing times.
-*   **Low Overhead**: Unlike RAG-based semantic search, this tool does not require a vector database. It interacts directly with your self-hosted Kiwix endpoint via its `OPDS API`. Since vast majority of the content resides on disk, this minimal overhead makes it possible to implement on SBCs / mobile devices.
+*   **Low Overhead**: Unlike RAG-based semantic search, this tool does not require a vector database. It interacts directly with your self-hosted Kiwix endpoint via its `OPDS API`. Since the vast majority of the content resides on disk, this minimal overhead makes it possible to implement on SBCs / mobile devices.
 
 ## Limitations
 
@@ -66,7 +66,7 @@ Your LLM is now ready to read articles from your Kiwix library!
 
 ## Credits
 
-This tool is a fork of lmstudio/wikipedia and is mainly authored/enhanced by **Deepseek-V4** and **Deepseek-V3.3**, with the code audited by me.
+This tool is a fork of [lmstudio/wikipedia](https://lmstudio.ai/lmstudio/wikipedia) and is mainly authored/enhanced by **Deepseek-V4** and **Deepseek-V3.3**, with the code audited by me.
 
 **Disclaimer:** This is just a for-fun weekend project and should **NOT** be used in production environments. This tool is provided "as is" with **NO WARRANTY**.
 
