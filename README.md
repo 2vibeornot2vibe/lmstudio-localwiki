@@ -64,7 +64,7 @@ Your LLM is now ready to read articles from your Kiwix library!
 
 ## Credits
 
-This tool is a fork of [lmstudio/wikipedia](https://lmstudio.ai/lmstudio/wikipedia) and is mainly authored/enhanced by **Deepseek-V4** and **Deepseek-V3.3**, with the code audited by me.
+This tool is a fork of [lmstudio/wikipedia](https://lmstudio.ai/lmstudio/wikipedia) and is mainly authored/enhanced by **DeepSeek-V4** and **DeepSeek-V3.3**, with the code audited by me.
 
 **Disclaimer:** This is just a for-fun weekend project and should **NOT** be used in production environments. This tool is provided "as is" with **NO WARRANTY**.
 
